@@ -2,15 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title> Denis Novik </title>
 </head>
-<body>
-    <div class="container"> 
-     <div class="header"> 
+    <header class="header"> 
        <nav class="nav_h">
         <a class="header_link" href="#"> Home </a>
         <a class="header_link" href="#"> About me </a>
@@ -18,118 +18,126 @@
         <a class="header_link" href="#"> Portfolio </a>
         <a class="header_link" href="#"> Contacts </a>
        </nav>
-    </div>
+     </div>
+    </header>
 
-    <div class="main_inform"> 
-      <h2 class="name_title" > Denis Novik </h2>
-       <div class="photo"> 
-       <img src="img/photo1.jpg" alt="my photo"> 
-       </div>
-
-       <div class="about_me"> 
-        <h2 class="aboutme_title"> About me </h2>
-        <p class="first_pr"> Hi, I'm Denis – UX/UI designer from Minsk.
+ <section class="main_inform"> 
+     <h2 class="title_name"> Denis Novik </h2>
+      <img class="photo" src="img/photo1.jpg" alt="my photo">
+    </section>
+      <div class="aboutme">
+      <div class="container"> 
+         <div class="text_part"> 
+           <h2 class="aboutme_title"> About me </h2>
+        <p class="first_pr"> <span> Hi, I'm Denis – UX/UI designer from Minsk.</span>
             I'm interested in design and everything connected with it. </p>
         <p class="second_pr"> I'm studying at courses "Web and mobile design 
             interfaces" in IT-Academy. </p>
         <p class="third_pr"> Ready to implement excellent projects
             with wonderful people. </p>
-        </div>
+       </div>
     </div>
+</div>
 
-    <div class="skills"> 
+    <section class="skills"> 
+        <div class="container"> 
         <h3 class="skills_title"> Skills </h3>
         <p class="subtitle_skills"> I work in such programs as </p>
-        <div class="skills_item">
+        <div class="skills_inner">
 
-            <div class="photoshop">
-            <img class="photoshop_icon" src="img/words/Ps.svg" alt="Photoshop">
+            <div class="skills_item">
+            <img class="skills_icon" src="img/words/Ps.svg" alt="Photoshop">
             <div class="skills_name"> Adobe Photoshop </div>
-            <div class="2active_stars"> 
-                <img class src="img/star_b.svg" alt="active star">
-                <img class src="img/star_b.svg" alt="active star">
-                <img class src="img/star_g.svg" alt="unactive star">
-                <img class src="img/star_g.svg" alt="unactive star">
-                <img class src="img/star_g.svg" alt="unactive star">
+            <div class="active_stars"> 
+                <img class="stars" src="img/star_b.svg" alt="active star">
+                <img class="stars" src="img/star_b.svg" alt="active star">
+                <img class="stars" src="img/star_g.svg" alt="unactive star">
+                <img class="stars" src="img/star_g.svg" alt="unactive star">
+                <img class="stars" src="img/star_g.svg" alt="unactive star">
             </div>
         </div>
         
-            <div class="illustrator">
-            <img class="illustrator_icon" src="img/words/Ai.svg" alt="Illustrator">
+            <div class="skills_item">
+            <img class="skills_icon" src="img/words/Ai.svg" alt="Illustrator">
             <div class="skills_name"> Adobe Illustrator </div>
-            <div class="3active_stars"> 
-                <img class src="img/star_b.svg" alt="active star">
-                <img class src="img/star_b.svg" alt="active star">
-                <img class src="img/star_b.svg" alt="active star">
-                <img class src="img/star_g.svg" alt="unactive star">
-                <img class src="img/star_g.svg" alt="unactive star">
+            <div class="active_stars"> 
+                <img class="stars" src="img/star_b.svg" alt="active star">
+                <img class="stars" src="img/star_b.svg" alt="active star">
+                <img class="stars" src="img/star_b.svg" alt="active star">
+                <img class="stars" src="img/star_g.svg" alt="unactive star">
+                <img class="stars" src="img/star_g.svg" alt="unactive star">
             </div>
         </div>
 
-            <div class="after_effects">
-            <img class="effects_icon" src="img/words/Ae.svg" alt="After Effects">
+            <div class="skills_item">
+            <img class="skills_icon" src="img/words/Ae.svg" alt="After Effects">
             <div class="skills_name"> Adobe After Effects </div>
-            <div class="4active_stars"> 
-                <img class src="img/star_b.svg" alt="active star">
-                <img class src="img/star_b.svg" alt="active star">
-                <img class src="img/star_b.svg" alt="active star">
-                <img class src="img/star_b.svg" alt="active star">
-                <img class src="img/star_g.svg" alt="unactive star">
+            <div class="active_stars"> 
+                <img class="stars" src="img/star_b.svg" alt="active star">
+                <img class="stars" src="img/star_b.svg" alt="active star">
+                <img class="stars" src="img/star_b.svg" alt="active star">
+                <img class="stars" src="img/star_b.svg" alt="active star">
+                <img class="stars" src="img/star_g.svg" alt="unactive star">
             </div>
         </div>
 
-        <div class="figma">
-            <img class="figma_icon" src="img/words/Figma.svg" alt="Figma">
+        <div class="skills_item">
+            <img class="skills_icon" src="img/words/Figma.svg" alt="Figma">
             <div class="skills_name"> Figma </div>
-            <div class="5active_stars"> 
-                <img class src="img/star_b.svg" alt="active star">
-                <img class src="img/star_b.svg" alt="active star">
-                <img class src="img/star_b.svg" alt="active star">
-                <img class src="img/star_b.svg" alt="active star">
-                <img class src="img/star_b.svg" alt="active star">
+            <div class="active_stars"> 
+                <img class="stars" src="img/star_b.svg" alt="active star">
+                <img class="stars" src="img/star_b.svg" alt="active star">
+                <img class="stars" src="img/star_b.svg" alt="active star">
+                <img class="stars" src="img/star_b.svg" alt="active star">
+                <img class="stars" src="img/star_b.svg" alt="active star">
             </div>
          </div>
        </div>
     </div>
+</section>
 
     <div class="portfolio">
+        <div class="container_portfolio"> 
         <h4 class="portfolio_title"> Portfolio </h4>
 
-        <div class="fashion_store">
-        <img class="portfolio_fs" src="img/portf/Fashion-Store.jpg" alt="Fashion Store">
-        <a class="link_fs" href="#"> Online fashion store - Homepage </a>
+        <div class="portfolio_store">
+        <img class="portfolio_photo" src="img/portf/Fashion-Store.jpg" alt="Fashion Store">
+        <a class="link_portfolio" href="#"> Online fashion store - Homepage </a>
         </div>
 
-       <div class="reebok_store"> 
-       <img class="portfolio_reebok" src="img/portf/reebok_web.jpg" alt="Reebok store">
-       <a class="link_reebok" href="#"> Reebok Store - Concept </a>
+       <div class="portfolio_store"> 
+       <img class="portfolio_photo" src="img/portf/reebok_web.jpg" alt="Reebok store">
+       <a class="link_portfolio" href="#"> Reebok Store - Concept </a>
        </div>
 
-       <div class="braun_store">
-        <img class="portfolio_braun" src="img/portf/braun-landing.jpg" alt="Braun Landing">
-        <a class="link_braun" href="#"> Braun Landing Page - Concept </a>
+       <div class="portfolio_store">
+        <img class="portfolio_photo" src="img/portf/braun-landing.jpg" alt="Braun Landing">
+        <a class="link_portfolio" href="#"> Braun Landing Page - Concept </a>
        </div>
     </div>
+</div>
 
     <div class="contacts">
         <h5 class="contacts_title"> Contacts </h5>
-        <p class="contacts_subtitle"> Want to know more or just chat? </p> 
-        <p class="contacts_subtitle2"> You are welcome! </p>
+        <span class="contacts_text"> 
+        <p class="contacts_subtitle"> Want to know more or just chat? </p>
+        <p class="contacts_subtitle2"> You are welcome!</p>
+        </span>
         <div class="button_contacts"> 
           <a class="link_massage" href="mailto:#"> Send massage </a>
           </div>
 
           <div class="social_icons">
-            <img class="icon_in" src="img/social/linkedin.svg" alt="linkedin">
-            <img class="icon_inst" src="img/social/inst.svg" alt="Instagram">
-            <img class="icon_bh" src="img/social/behance.svg" alt="Behance">
-            <img class="icon_dribble" src="img/social/dribbble.svg" alt="Dribble">
+            <a class="link_social" href="#"> <img class="icon_social" src="img/social/linkedin.svg" alt="linkedin"> </a>
+            <a class="link_social" href="#"> <img class="icon_social" src="img/social/inst.svg" alt="Instagram"> </a>
+            <a class="link_social" href="#"> <img class="icon_social" src="img/social/behance.svg" alt="Behance"> </a>
+            <a class="link_social" href="#"> <img class="icon_social" src="img/social/dribbble.svg" alt="Dribble"> </a>
          </div>
 
          <div class="footer_text">
          <p class="like_me"> Like me on </p>
-         <p class="lin_inst_beh"> LinkedIn, Instagram, Behance, </p>
-         <p class="only_dribble"> Dribble </p>
+         <p class="like_me"> LinkedIn, Instagram, Behance, </p>
+         <p class="like_me"> Dribble </p>
         </div> 
       </div>
     </div>
